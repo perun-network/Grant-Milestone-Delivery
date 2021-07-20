@@ -15,15 +15,15 @@
 > 
 > If there is anything particular about any of the deliverables we or a future reader should know, use the respective `Notes` column.
 
-> //TODO provide links and notes
+> //TODO check links and notes
 
 | Number | Deliverable | Link | Notes |
 | ------------- | ------------- | ------------- |------------- |
-| 0a. | License | Apache 2.0 |
-| 0b. | Documentation | We will provide both inline documentation of the code and a basic tutorial that explains how a user can spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
-| 0c. | Testing Guide | Core functions will be fully covered by unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
-| 0d. | Docker | We will provide a Dockerfile that can be used to test all the functionality delivered with this milestone. |
-| 1. | Setup | We provide a repository that forms the basis of our deliverables.
-| 2. | Core Types | We provide the core data types, as specified in _Project Details_.
-| 3. | Open/Deposit | We provide the channel opening (i.e., deposit) functionality as specified in _Project Details_.
+| 0a. | License | [Apache 2.0](https://github.com/perun-network/perun-polkadot-pallet/tree/milestone1/LICENSE) | |
+| 0b. | Documentation | [README](https://github.com/perun-network/perun-polkadot-pallet/tree/milestone1/README.md#documentation) | We provide in-code docs and an architecture overview in the README. |
+| 0c. | Testing Guide | [README](https://github.com/perun-network/perun-polkadot-pallet/tree/milestone1/README.md#tests) | Have a look at the [repo structure](https://github.com/perun-network/perun-polkadot-pallet/tree/milestone1/README.md#repo-structure) to find all test files. |
+| 0d. | Docker | [Dockerfile](https://github.com/perun-network/perun-polkadot-pallet/tree/milestone1/Dockerfile) and [docker-compose.yml](https://github.com/perun-network/perun-polkadot-node/tree/milestone1/docker-compose.yml) | The dockerfile is for testing and the compose is for setup + tryout. |
+| 1. | Setup | [Setup repo](https://github.com/perun-network/perun-polkadot-node/tree/milestone1/) | The setup repo shows how to use the Perun pallet. **//TODO clarify with OTY how we should include the node repo. The Setup task was just meant to cover the setup of the pallet repository.** |
+| 2. | Core Types | [types.rs](https://github.com/perun-network/perun-polkadot-pallet/tree/milestone1/src/types.rs) | *Params*, *State*, *RegisteredState* and *Whithdrawal* |
+| 3. | Deposit | [lib.rs](https://github.com/perun-network/perun-polkadot-pallet/tree/milestone1/src/lib.rs#L213) |  |
 
